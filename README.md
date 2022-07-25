@@ -37,3 +37,13 @@ body {
   text-align: right;
   width: 25%;
 }
+
+--padding for every side 
+
+padding:20px
+
+-- prevent element to be separated too much
+max-width: 500px;
+
+reduce spaces within image & title
+ margin-top:-25px;
