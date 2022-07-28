@@ -1,0 +1,48 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+  <h1 id="title">Dr. Andres Coronado</h1>
+  <main id="main">
+    <div id="img-div">
+      <div id="img-caption">The subject in his 30s.</div>
+      <p id="tribute-info">The best engineer ever.</p>
+      <a id="tribute-link" target="_blank" href="https://www.freecodecamp.org/">Additional info</a>
+      <img id="image" src="https://www.flickr.com/photos/mandreco/15900184741/">      
+    </div>
+    </main>
+  </body>
+
+
+  </html>
+
+** end of undefined **
+
+** start of undefined **
+
+img{
+ display:block;
+
+}
+
+#image{
+  max-width: 100%;
+  height:auto;
+}
+@media (max-width: 800px) {
+  #image {
+    width: 50%;
+  }
+  
+  @media (max-width: 600px) {
+  #image {
+    width: 100%;
+  }
+
+** end of undefined **
