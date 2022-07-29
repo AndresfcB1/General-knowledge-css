@@ -1,0 +1,138 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+  <h1 id="title">Technical Document</h1>
+
+  <nav id="navbar">
+    <header>Repairing your life</header>
+  
+     <a class="nav-link" href="#t1">t1</a> 
+<a class="nav-link" href="#t2">t2</a> 
+  <a class="nav-link" href="#t3">t3</a> 
+
+   <a class="nav-link" href="#t4">t4</a> 
+     <a class="nav-link" href="#t5">t5</a> 
+
+  </nav>
+  <main id="main-doc">
+
+    <section id="t1" class="main-section">
+         
+    <header>t1</header>
+    
+    <p>t1.1</p>
+    <p>t1.2</p>
+    <code></code>
+
+    <ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+  
+</ul>
+</section>
+     <section id="t2" class="main-section">
+           
+       <header>t2</header>
+        
+          <p>t2.1</p>
+    <p>t2.2</p> <code></code>
+
+    <ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+</section>
+      <section id="t3" class="main-section">
+             
+        <header>t3</header>
+      
+           <p>t3.1</p>
+    <p>t3.2</p> <code></code>
+
+    <ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+</section>
+       <section id="t4" class="main-section">
+           
+         <header>t4</header>
+         
+            <p>t4.1</p>
+    <p>t4.2</p> <code></code>
+
+    <ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+</section>
+        <section id="t5" class="main-section">
+               
+          <header>t5</header>
+     
+             <p>t5.1</p>
+    <p>t5.2</p>
+    <code></code>
+    <ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+</section>
+    </main>
+  </body>
+
+
+  </html>
+
+** end of undefined **
+
+** start of undefined **
+
+@media (max-width: 1366px) {
+  #navbar {
+   position:absolute;
+   left:0;
+   top:50px;
+   font-size:20px;
+   background-color:grey;
+   width:50%;
+  }
+}
+nav header{
+  color:white;
+}
+body{
+  background-color:blue;
+}
+
+h1{
+  color:white;
+}
+#t1 header{
+  padding-top:70px;
+  color:white;
+}
+header{
+
+  color:white;
+}
+p {
+  color:grey
+}
+li{
+  color:gold;
+}
+
+** end of undefined **
