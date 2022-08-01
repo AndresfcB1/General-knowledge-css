@@ -1,0 +1,112 @@
+** start of undefined **
+
+<!DOCTYPE HTML>
+<html lang="en">
+
+  <head>
+    <title>Product Landing Page </title>
+        <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    </head>
+
+    <body>
+      <header id="header" >
+        <img id="header-img" src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg"/>
+        <nav id="nav-bar">
+
+  <a class="nav-link" href="#t1">t1</a> 
+<a class="nav-link" href="#t2">t2</a> 
+  <a class="nav-link" href="#t3">t3</a> 
+
+        </nav>
+      </header>
+     <section id="t1" >
+         
+    <header>t1</header>
+    <video id="video" src="https://www.youtube.com/watch?v=r5s2200HP20"></video>
+    <p>t1.1</p>
+    <p>t1.2</p>
+    <code></code>
+
+    <ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+  
+</ul>
+</section>
+     <section id="t2" >
+           
+       <header id="header t2">t2</header>
+        
+          <p>t2.1</p>
+    <p>t2.2</p> <code></code>
+
+    <ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+</section>
+      <section id="t3" >
+             
+        <header id="header t2">t3</header>
+      
+           <p>t3.1</p>
+    <p>t3.2</p> <code></code>
+
+    <ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+</section>
+
+<form id="form" action="https://www.freecodecamp.com/email-submit">
+
+ <div class="info">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="user@gmail.com" />
+          </div>
+
+          <input type="submit" id="submit" value="Submit Now!">
+
+</form>
+      </body>
+  </html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+#header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #cc0000;
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+  padding: 1em;
+}
+
+#t1{
+  padding-top:300px;
+}
+
+@media only screen and (max-width: 720px) {
+ html{
+   font-size:14px;
+ }
+
+}
+#video{
+  display:flex;
+}
+
+** end of undefined **
