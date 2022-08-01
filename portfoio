@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+  <head>
+    <title>Andres Coronado</title>
+        <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    </head>
+
+    <body>
+      <header id="header" >
+  
+        <nav id="navbar" class="nav">
+<ul class="nav-list">
+  <li>
+  <a class="nav-link" href="#About me">About me</a> 
+  </li>
+   <li>
+<a class="nav-link" href="#projects">Portfolio</a> 
+   </li>
+   <li>
+  <a class="nav-link" href="#Contact details">Contact details</a> 
+</li>
+</ul>
+        </nav>
+      </header>
+
+<div class="info">
+     <section id="welcome-section" >
+         
+    <h1>Hello I am Andres Coronado. </h1>
+   <h2 > Welcome to the jungle of a Web Developer</h2>
+</section>
+
+
+     <section id="projects" >
+        <header id="header projects">My projects</header>
+        
+        <div class="project-tile"> <a href="http://mernmintic1.herokuapp.com/login">Docs Managenent</a></div>  
+      
+        
+          <div class="profile-link"> <a id="profile-link" target="_blank" href="https://github.com/AndresfcB1">GitHub</a></div>  
+       
+  
+</section>
+
+
+
+
+      <section id="About" >
+             
+        <header id="header about">About me</header>
+      
+           <p> I'm a web developer with background in information technology and knowlege in different general purpose programming languages and web responsive design.</p>
+     
+</section>
+</section>
+      <section id="Contact" >
+             
+        <header id="header details">Contact details</header>
+      
+           <p> e: Andrescoronadob5@gmail.com c: 0421857894.</p>
+     
+</section>
+</div>
+
+      </body>
+  </html>
+CSS
+nav{display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:20%;
+    background: grey;
+    box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
+    z-index: 10;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--main-white);
+}
+.nav-list {
+    display: flex;
+    margin-right: 2rem;
+}
+
+
+.nav-list a {
+    display: block;
+    font-size: 2.2rem;
+    padding: 2rem;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.project-tile a, .profile-link a{
+    font-weight:bold;
+     font-size:15px;
+}
+ul {
+    list-style: none;
+}
+#welcome-section{
+  
+    justify-content:center;
+   text-align:center;
+   color:white;
+   
+
+}
+#projects{
+
+ font-size:17px;
+  font-weight:bold;
+ color:white;
+}
+
+#about{
+
+ font-size:17px;
+  font-weight:bold;
+ color:white;
+}
+#contact{
+
+  font-size:17px;
+  font-weight:bold;
+ color:white;
+}
+body{
+    background-color:black;
+    
+}
+.info{
+    padding-top:60px;
+position:flex;
+}
+
+@media only screen and (max-width: 720px) {
+ html{
+   font-size:13px;
+ }
+}
